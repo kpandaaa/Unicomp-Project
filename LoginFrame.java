@@ -5,8 +5,8 @@ import javax.swing.*;
 public class LoginFrame extends JFrame implements ActionListener {
 
 
-		Container container = getContentPane();
-		JLabel userLabel = new JLabel("USERNAME");
+	Container container = getContentPane();
+	JLabel userLabel = new JLabel("USERNAME");
     	JLabel passwordLabel = new JLabel("PASSWORD");
     	JTextField userTextField = new JTextField();
     	JPasswordField passwordField = new JPasswordField();
@@ -14,7 +14,7 @@ public class LoginFrame extends JFrame implements ActionListener {
     	JButton resetButton = new JButton("RESET");
     	JCheckBox showPassword = new JCheckBox("Show Password");
 
-		LoginFrame() {
+	LoginFrame() {
 
         	setLayoutManager();
         	setLocationAndSize();
@@ -23,7 +23,7 @@ public class LoginFrame extends JFrame implements ActionListener {
 
     	}
 
-   		public void setLayoutManager() {
+   	public void setLayoutManager() {
 
     	    container.setLayout(null);
     	}
